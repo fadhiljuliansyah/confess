@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nembak Cewek</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 50px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .flowers {
+            font-size: 50px;
+            margin: 20px 0;
+        }
+        .message {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #yes {
+            background-color: #4CAF50;
+            color: white;
+        }
+        #no {
+            background-color: #f44336;
+            color: white;
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flowers">🌸🌹🌷🌺</div>
+        <div class="message">
+            [Tulisan bebas kamu di sini, bang! Misalnya: "Hai cewek cantik, mau jadi pacar aku? 😘"]
+        </div>
+        <button id="yes" onclick="accept()">Ya, Mau!</button>
+        <button id="no" disabled>Tidak, Makasih</button>
+    </div>
+
+    <script>
+        function accept() {
+            alert("Yey! Kamu diterima! 🎉");
+            // Kamu bisa ganti ini dengan redirect ke halaman lain atau apa aja
+        }
+    </script>
+</body>
+</html>
